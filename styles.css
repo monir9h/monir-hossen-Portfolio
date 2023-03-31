@@ -1,0 +1,40 @@
+
+body {
+   
+     background-image: url(assets/dark-water-blue.jpeg); 
+}
+
+h1, ul{
+color:antiquewhite
+}
+
+a{
+color:rgb(255, 0, 4)
+}
+ul{
+     font-size: large;
+}
+footer{
+     color: antiquewhite;
+}
+.demo-wrap {
+     overflow: hidden;
+     position: relative;
+   }
+   
+   .demo-bg {
+     opacity: 0.6;
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: auto;
+   }
+   
+   .demo-content {
+     position: relative;
+   }
+
+   .home-page{
+     margin: 150px 0px;
+   }
