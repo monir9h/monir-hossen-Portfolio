@@ -19,7 +19,9 @@
 
 let form = document.querySelector(".weather")
 const outputData = document.querySelector(".output")
-let cityInput = document.getElementById("city")
+let cityInput = document.getElementById("city-name")
+
+let button = document.querySelector(".submit")
 
 // Fetch data
 function fetchWeatherData(cityName) {
@@ -37,12 +39,10 @@ function fetchWeatherData(cityName) {
 
 
 // Get city input
-form.addEventListener("submit", event => {
+button.addEventListener("click", event => {
     event.preventDefault()
     let cityName = ""
-    if(cityInput){
-      let cityName = cityInput.value
-    }
+      cityName = cityInput.value
     
     fetchWeatherData(cityName)
 })
