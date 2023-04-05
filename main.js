@@ -81,3 +81,14 @@ const fillWeatherBox = (json, cityName) => {
 
 }
 
+let pursuit = document.getElementById("learn-more-pursuit")
+pursuit.addEventListener("click", event =>{
+    event.preventDefault()
+})
+
+
+let sheep = document.getElementById("learn-more-sheep")
+sheep.addEventListener("click", event =>{
+    event.preventDefault()
+    
+})
